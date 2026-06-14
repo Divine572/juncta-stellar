@@ -4,7 +4,7 @@ Concentrated liquidity and RWA-native lending for Stellar.
 
 This repository holds the Soroban implementation of Juncta's core protocol: a concentrated liquidity DLMM and an integrated lending market that share one capital layer. The work in this repository is the subject of our Stellar Community Fund Build submission. The contracts are in active planning and the implementation begins with this grant. This README documents the architecture, the module structure, and the milestone plan so reviewers can see the full scope before the first line of contract code lands.
 
-Our full project documentation lives in one source: [Gitbook link, to be added]. It contains the complete technical architecture and diagrams, the market analysis and competitive positioning, the roadmap and milestones, the test plan, and the development artifacts.
+Our full project documentation lives in one source: https://juncta.gitbook.io/juncta-docs. It contains the complete technical architecture and diagrams, the market analysis and competitive positioning, the roadmap and milestones, the test plan, and the development artifacts.
 
 ---
 
@@ -163,7 +163,7 @@ Documentation and planning artifacts in this project were drafted with AI assist
 
 ## Links
 
-- Technical Architecture Document: [Gitbook link, to be added]
+- Technical Architecture Document: https://juncta.gitbook.io/juncta-docs
 - Juncta on GitHub: https://github.com/JunctaXYZ
 - Website: https://juncta.xyz/
 - X: https://x.com/JunctaXYZ
