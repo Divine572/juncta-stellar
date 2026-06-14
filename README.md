@@ -106,6 +106,7 @@ The Soroban implementation mirrors the module layout already built in Move, adap
 - `price_math` — fixed-point price and bin math
 - `fee` — dynamic swap fee that scales with volatility
 - `distribution` — liquidity shape weighting across a range
+- `intent_swap` — intent-based swaps with solver execution, single-hop and multi-hop
 
 **Lending**
 - `lending` — orchestration of borrow, repay, and liquidate
@@ -134,7 +135,7 @@ The full milestone breakdown, deliverables, and budget mapping are in the docume
 1. **DLMM and liquidity layer on testnet.** The bin-based DEX, the inactive bin router, and the deployment tier accounting deployed and functional on Stellar testnet.
 2. **Lending market and global supply.** The global per-token supply pool, borrow allocation, interest rate model, the three borrower types, and the oracle adapter with a slow-feed tolerant configuration, with full test coverage.
 3. **Liquidation and keepers.** The five-level progressive liquidation engine, recall handling, and the keeper and indexer layer for health factor monitoring and price updates.
-4. **Audit and mainnet.** Security audit of the Soroban contracts, fixes, and mainnet deployment with a seeded flagship pool and an RWA collateral pair.
+4. **Mainnet.** Mainnet deployment of the Soroban contracts, with a real-world asset collateral type configured and the protocol live and ready for liquidity.
 
 ---
 
